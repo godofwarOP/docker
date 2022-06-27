@@ -1,0 +1,11 @@
+1.  FROM - pulls image from remote repository
+    Ex :- FROM ubuntu:latest, FROM node:12-alpine
+
+2.  BUILD - builds the docker image from dockerfile
+    Ex :- docker build .
+
+3.  RUN - runs a command throught the shell, waiting for it to finish, and saving the result.
+          It tells what process will be running inside the container at the runtime.
+    Ex :- RUN echo hello
+
+4.  
